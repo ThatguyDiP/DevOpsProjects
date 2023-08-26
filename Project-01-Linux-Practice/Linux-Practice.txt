@@ -1,0 +1,243 @@
+# Linux-Practice-Project
+Darey.io July2023 Cohort Linux Practice Project
+
+## In this I have been learning the basics of:
+
+  ### File Manipulation & File Permissions and Ownership commands
+  
+There are 20 sections / commands in each catagory
+
+
+# File Manipulation
+
+
+## 1.  sudo command
+
+![SudoCommand](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/eb42d789-fa1d-4d5b-bb8f-75e90ec1214e)
+
+## 2. pwd command
+
+![pwdimage](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/d28e9e09-065e-4492-b9ab-512b15ff4959)
+
+## 3. cd command
+
+![cdimage](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/625d0871-ea38-4c28-862c-1d50175f5c11)
+
+  cd - cd .. cd ~ shortcuts
+
+![cdshortcutsimage](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/f703c084-8b46-463d-81f6-e0cac1c0a637)
+
+
+## 4. ls command
+
+![lsimage](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/65f9248d-b5d0-42b0-8989-ff10bd37fd4b)
+
+## 5. cat command
+
+![catimage](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/727e67b9-97d7-4440-9434-183ce53a9137)
+
+## 6. cp cpmmand
+
+![cpimage](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/8184a58d-7f1b-478d-8921-33f245b697b1)
+
+![copy multiple files to new dir image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/3fe47981-8840-4804-9ddb-2f149a2a4a99)
+
+![copy to file in dir image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/7323257c-128d-4ad2-a210-b17ded2142c2)
+
+![copy dir contents to new dir image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/1fda9c96-3709-4b9b-91f0-46ac1baebdf4)
+
+## 7. mv command
+![move file to another directory image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/4ea5cd22-93d3-41d7-9edc-9e058f7467bf)
+
+![Changing the name of a file image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/6b2dc1bd-2a69-460e-bee0-c0c70f616ce4)
+
+## 8. mkdir command
+
+![creating  dir image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/df2f2f4d-6d7c-44f8-86b5-5a4d77d04444)
+
+![making directory parent permission print message image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/fd04565e-759d-488c-8905-05fe30fe9a6a)
+
+## 9. rmdir command
+
+![Permanant dlete of a directory image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/f78d09a1-aa37-4af0-9f30-056c4bba49ff)
+
+## 10. rm command
+
+![deleting file image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/dca4da1a-8f60-45e3-a75c-7bbac4592557)
+
+![deleting multiple files from a directory image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/5d21eb52-ca0d-4e41-954e-25ef638792c3)
+
+![ask before deletion image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/2d26d9a5-880e-4bf3-8444-ac2a32cef389)
+
+## 11. touch command
+
+![creating a new file image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/d7397d76-56fe-4f03-beec-56abe21b60b9)
+
+## 12. locate command
+
+![search for file image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/45e28b4e-6fd2-41af-b453-3466ac195a37)
+
+## 13. find command
+
+![file search within a specific directory image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/3c439726-afd6-42bc-84bf-1b52c30056ac)
+
+## 14. grep command
+
+![finds a word by searching through text in a specified file image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/66b6eac4-6511-4983-8f7e-b14ee905b99e)
+
+## 15. df command
+
+![disk space useage within current directory image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/6c3fb4ed-11e9-43de-94b8-435a641bf735)
+
+## 16. du command
+
+![check specific file or directory space on disk image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/a1c3d1ab-1df3-4c78-969e-13fb03aec1d2)
+
+## 17. head command
+
+![head image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/2315cc53-8e5e-47aa-9dba-b0e19c5446c7)
+
+## 18. tail command
+
+![ tail image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/d04083f1-461b-435f-abf5-d74f53d3a409)
+
+## 19. diff command
+
+![diff image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/cb7118b4-c9a4-4030-bae0-7017217eefc9)
+
+
+## 20.tar command
+
+![tar archive image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/dc1f36b0-f27e-4d06-9f47-887a847c5e62)
+
+# File Permissions and Ownership Commands
+
+## 21. chmod command
+
+![ch mod image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/1c7777b0-3136-437b-998a-ea854516c379)
+
+## 22 chown command
+
+![chown image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/973b4cb9-64c1-4d96-bf15-c3a84aae699e)
+
+#### I was running into a permission issue but ran in sudo and i believe it corrected this.
+
+![fred owns look image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/5581cfd8-dc6d-4584-8870-c9e9a106e39d)
+
+
+## 23. jobs command
+
+![jobs -l -n-p image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/61666698-b3dc-4b1c-8922-8ad2a66f55a9)
+
+No jobs running to show command
+
+## 24. kill command
+
+![kill command image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/6acfc4b9-2db8-4884-8653-8262644caa6d)
+
+No processes running to kill 
+
+## 25. ping command
+
+![ping image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/487827c9-eb7f-4b1d-b6b8-674aa2bdd256)
+
+
+## 26. wget command
+
+![wget wordpress image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/f483be76-b21f-4ce7-a113-d3b9093ccd05)
+
+## 27. uname command
+
+![uname command image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/7fd78d0a-145b-462f-9087-c8a5729d8f1a)
+
+## 28. top command
+
+![top image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/cd7c005c-dac0-420b-b703-c0236acbffa1)
+
+## 29. history command
+
+![history image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/6b4a052b-4de6-49a3-b3bc-3f0ead152689)
+
+
+## 30. man command
+
+![man image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/de6629e3-8d25-483f-85f7-bfdefddaeef5)
+
+
+![man ls image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/daac3370-c713-4f6c-99a3-36a860a70113)
+
+![man ls 2 ls image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/8300e942-a6f9-4d10-82b2-ea7a7a49fd91)
+
+## 31. echo command
+
+![echo image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/b46edb2b-1123-4045-b8ce-12ad55cb833a)
+
+## 32. zip, unzip,commands
+
+### zipping
+![zip fail image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/e0a58604-507b-423d-b052-685f5ccb148b)
+### to run this command i needed to install zip functionality via sudo apt install zip
+
+![zip sucess image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/cb452b65-d47e-4487-96b8-fc8719872376)
+
+### unzip
+![unzip success image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/6bb8dd92-55db-432d-9ce7-b63091a7c8fc)
+
+
+## 33. hostname command
+
+![hostname image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/50846ef1-65d7-498d-a867-12169787ee7f)
+
+## 34. useradd,userdel commands
+
+###Useradd and pwd command using sudo 
+
+![useradd and passwd image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/e12d902f-c2b0-44c7-9ac4-2aa9554cd975)
+
+### userdel command using sudo
+
+![userdel image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/874eb0a9-3e2e-4f5e-805c-a343ec71a5c3)
+
+## 35. apt-get command
+
+![apt-get upgrade image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/57053ad3-4432-463c-b791-49616eec4833)
+
+## 36. nano, vi, jed commands
+
+### nano
+
+![nano input image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/a4c312d5-193b-4e3d-9ab6-91cfa705f55e)
+
+![nano output image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/00addf73-31ab-42b2-9b12-cca2fd6bfe9c)
+
+### vi
+
+![vi image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/2ff84b2a-4b87-4ab6-8dd0-f77e6b7a7844)
+
+## jed
+ ### installing jed 
+ ![jed install image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/d67128f6-5af4-45f2-a195-3afc420b3923)
+
+### running jed 
+![jed opened image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/b9134018-8dd1-49c2-83d2-3e003940f91a)
+
+## 37. alias, unalias commands
+
+![alius unalias image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/ef367a71-d231-4477-8e6f-6b18d6a8d682)
+
+## 38. su command
+
+![sudo su image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/26b91164-686f-40b9-8347-5db701ec0871)
+
+### ran sudo su -l John 
+
+## 39. htop command
+
+![htop -C image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/42350d83-284e-4ef4-a264-77864124c71d)
+
+## 40 . ps command
+
+![ps -T -A image](https://github.com/ThatguyDiP/Linux-Practice-Project/assets/13784199/102eeb38-9ea6-486a-ad1c-4572e9949cd7)
+
+
+
