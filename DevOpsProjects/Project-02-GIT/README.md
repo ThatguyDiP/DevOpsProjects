@@ -1,9 +1,5 @@
 # **Welcome To My Git Project**
 
-It is unfinished at this point!
-
- I will update and re submit shortly.
-
 ## ***Initializing and Commiting to Repository***
 
 ### **Initializing a Repository**
