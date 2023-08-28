@@ -84,8 +84,7 @@ asterics or underscore will create *Italic* or **Bold**
 
 *italic* or _italic_
 **bold** or __bold__
-
-![Emphasis Syntax](<emphasys syntax (2).png>)
+![Emphasis Syntax](<Screens/emphasys syntax (2).png>)
 
 ### **3. Lists**
 
@@ -97,7 +96,7 @@ Markdown supports Unordered and orddered lists
 - Item 2
 - Item 3
 
-![Unordered List Syntax](<UnorderedList Syntax.png>)
+![Unordered](<Screens/UnorderedList Syntax.png>)
 
 #### ordered list example
 
@@ -105,7 +104,7 @@ Markdown supports Unordered and orddered lists
 2. Second Item
 3. Third Item
 
-![ordered list syntax](<Ordered List Syntax.png>)
+![Ordered](<Screens/Ordered List Syntax.png>)
 
 ### 4. **Links**
 
@@ -113,13 +112,13 @@ To insert a hyperlink use square brackets to surround clickable text followed by
 
 [Click Here To Go to Link](r.mtdv.me/articles/DevOps)
 
-![Alt text](<Hyper Link Example.png>)
+![Alt text](<Screens/Hyper Link Example.png>)
 
 ### 5. **Images**
 
 To display an image  use an ! followed by square brackets containing alt image description and parenthsis containing image location/URL
 
-![Image Insertion](<Image Insertion (2).png>)
+![Image Insertion](<Screens/Image Insertion (2).png>)
 
 ### 6. **Code**
 
@@ -127,4 +126,4 @@ to display code snippits use backtics (') to enclose code to be displayed
 
 `console.log('Welcome to darey.io')`
 
-![Displaying Code](<code display.png>)
+![Code Display](<Screens/code display.png>)
