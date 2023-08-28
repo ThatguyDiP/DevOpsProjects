@@ -46,5 +46,85 @@ It is unfinished at this point!
 
 #### *Add a Remote Repository to the Local Repository*
 
-![Remote Add](<Screens/Remote Repo Add.png>)
+![Origin Push Setup](<Screens/Set origin to push to remote.png>)
 
+#### *Pushing from Local Repository to Remote Repository*
+
+![L2R Push](<Screens/Set origin to push to remote.png>)
+
+#### *Cloning Remote Repository to Local*
+
+![R2L Repo Clone](<Remote Clone.png>)
+
+## ***Branch Management and  Tagging***
+
+### **Introduction to Markdown Syntax**
+
+#### *The following are the most commonly used Markdawn Syntax elements*
+
+### **1. Headings**
+
+Putting a number of Hash symbols at the beginning of the line will create a heading.
+
+Below are examples of this process
+# Heading 1
+
+'# Heading 1'
+## Heading 2
+
+'## Heading 2'
+### Heading 3
+
+'### Heading 3'
+
+### **2. Emphasis**
+
+asterics or underscore will create *Italic* or **Bold**
+
+
+*italic* or _italic_
+**bold** or __bold__
+
+![Emphasis Syntax](<emphasys syntax (2).png>)
+
+### **3. Lists**
+
+Markdown supports Unordered and orddered lists
+
+#### unordered list example
+
+- Item 1
+- Item 2
+- Item 3
+
+![Unordered List Syntax](<UnorderedList Syntax.png>)
+
+#### ordered list example
+
+1. First Item
+2. Second Item
+3. Third Item
+
+![ordered list syntax](<Ordered List Syntax.png>)
+
+### 4. **Links**
+
+To insert a hyperlink use square brackets to surround clickable text followed by the url in parenthesies
+
+[Click Here To Go to Link](r.mtdv.me/articles/DevOps)
+
+![Alt text](<Hyper Link Example.png>)
+
+### 5. **Images**
+
+To display an image  use an ! followed by square brackets containing alt image description and parenthsis containing image location/URL
+
+![Image Insertion](<Image Insertion (2).png>)
+
+### 6. **Code**
+
+to display code snippits use backtics (') to enclose code to be displayed
+
+`console.log('Welcome to darey.io')`
+
+![Displaying Code](<code display.png>)
