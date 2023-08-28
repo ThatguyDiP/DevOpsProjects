@@ -4,18 +4,47 @@ It is unfinished at this point!
 
  I will update and re submit shortly.
 
-![Alt text](Screens/mkdir-cd-gitinit.png)
+## ***Initializing and Commiting to Repository***
 
-![Alt text](Screens/first-commit.png)
+### **Initializing a Repository**
 
-![Alt text](Screens/branch-creation.png)
+#### *Creating a working directory and initaializing*
 
-![Alt text](Screens/branch-list.png)
+![making project directory](Screens/mkdir-cd-gitinit.png)
 
-![Alt text](<Screens/changing branch.png>)
+#### *Making the first Commit*
 
-![Alt text](Screens/Git-merge-branch.png)
+![First Commit](Screens/first-commit.png)
 
-![Alt text](Screens/merging-banches.png)
+### **Working with Branches**
 
-![delet branch](Screens/branch-delete.png)
+#### *Creating the First Branch*
+
+![Branch Creationt](Screens/branch-creation.png)
+
+#### *Listing GIT Branches*
+
+![Branch Listingt](Screens/branch-list.png)
+
+#### *Changing Between Branches*
+
+![changing between branches](<Screens/changing branch.png>)
+
+#### *Merging Branches*
+
+![Merging Branches](Screens/Git-merge-branch.png)
+
+![Merging Branches](Screens/merging-banches.png)
+
+#### *Deletion of Branches*
+
+![delete branch](Screens/branch-delete.png)
+
+## ***Collaboration and Remote Repositories***
+
+### **Pushing local Repository to Remote Repository**
+
+#### *Add a Remote Repository to the Local Repository*
+
+![Remote Add](<Screens/Remote Repo Add.png>)
+
