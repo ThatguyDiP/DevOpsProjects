@@ -42,7 +42,7 @@ To test the server on the command line insert
 Another way is to go to your internet browser of choice and insert the public ip address
 When i went to the website this came up showing that apache was properly installed
 
-![apache2 running](s1-final.png)
+![apache2 running](Screens/s1-final.png)
 
 ## **Installing MySQL**
 
@@ -53,13 +53,13 @@ To install MySQL i ran the command
      sudo apt install mysql-server
 
 
-![sql install](s2-a-installmysql-1.png)
+![sql install](Screens/s2-a-installmysql-1.png)
 
 Once the install was complete i then logged into the MySQL console by entering the command
 
     sudo mysql
 
-![sql console](s2-b-mysql-connection.png)
+![sql console](Screens/s2-b-mysql-connection.png)
 
 From there the process to properly secure the SQL Shell is as follows:
 
@@ -68,18 +68,18 @@ Run security script that removes the default security settings and creates a cus
     ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
 
 
-![Loging in with native password](s2-c-nativepass.png)
+![Loging in with native password](Screens/s2-c-nativepass.png)
  
     $ sudo mysql_secure_installation
 
-![SQL Password setup](s2-d-pass-setup.png)
+![SQL Password setup](Screens/s2-d-pass-setup.png)
 
 Once the MySQL security has been updated i tested the settings by using the command
     sudo mysql -p
 
 This was flagged with -p to prompt a password to log in
 
-![SQL Login With Password Prompt](s2-e-pass-prompt.png)
+![SQL Login With Password Prompt](Screens/s2-e-pass-prompt.png)
 
 Type exit on the command line to leave the MySQL Console
 
@@ -103,13 +103,13 @@ PHP is installed to process code to allow the end user to see the content in a d
 
     sudo apt install php libapache2-mod-php php-mysql
 
-![Bulk Package Install](s3-a-php-packages-install.png)
+![Bulk Package Install](Screens/s3-a-php-packages-install.png)
 
 Once the installation is complete you can verify the PHP version by typing the command 
 
     php -v
 
-![PHP Version Verification](s3-b-php-version.png)
+![PHP Version Verification](Screens/s3-b-php-version.png)
 
 ## **Creating a Virtual Host Using Apache**
 
@@ -131,7 +131,7 @@ Finally I created and opened a new config file in Apache's sites-available direc
 
     sudo vi /etc/apache2/sites-available/projectlamp.cfg
 
- ![Alt text](s4-a-c.png) 
+ ![Alt text](Screens/s4-a-c.png) 
 
 #### This created  a new blank file and opened it to allow editing
 
@@ -146,7 +146,7 @@ The following bare-bones configuration was then inserted by pressing the i key t
         CustomLog ${APACHE_LOG_DIR}/access.log combined
     </VirtualHost>
 
- ![Bare-Bones Config](s4-d-barebones-config.png)
+ ![Bare-Bones Config](Screens/s4-d-barebones-config.png)
 
 
 To save and close the file follow the steps below
@@ -160,19 +160,19 @@ The following command will show the new file in the Sites-available directory
 
     sudo ls /etc/apache2/sites-available
  
- ![sites-avail](s4-e-.conf-files.png)
+ ![sites-avail](Screens/s4-e-.conf-files.png)
 
 To enable the newly configured virtual host input the following command
 
     sudo a2ensite projectlamp
     
- ![enable virtual host](s4-f-enable-site.png) 
+ ![enable virtual host](Screens/s4-f-enable-site.png) 
 
 To disable Apache default website  
 
     sudo a2dissite 000-default
 
- ![disable default ](s4-g-disable-default.png) 
+ ![disable default ](Screens/s4-g-disable-default.png) 
 
 To check for syntax errors in the configuration file  and to reload Apacheuse the following lines of code
 
@@ -180,7 +180,7 @@ To check for syntax errors in the configuration file  and to reload Apacheuse th
 
     sudo systemctl reload apache2
 
-![Config syntax error check and reload commands](s4-h-itest-reload.png)
+![Config syntax error check and reload commands](Screens/s4-h-itest-reload.png)
 
 To test the virtual host is properly working
 
@@ -188,7 +188,7 @@ To test the virtual host is properly working
 
      sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html
   
- ![Virtual host test](s4-j-echo-to-web.png)
+ ![Virtual host test](Screens/s4-j-echo-to-web.png)
 
 ## **Enable PHP on the Website**
 
@@ -210,11 +210,11 @@ and to change the directory order
     </IfModule>
 
 
-![vim editing config](s5-a-vim-edit-conf.png)
+![vim editing config](Screens/s5-a-vim-edit-conf.png)
 
 Once this is complete Apache Must be reloaded for changes to take effect
 
-![Alt text](s5-b-reload-apache2.png)
+![Alt text](Screens/s5-b-reload-apache2.png)
 
 A PHP test script was created and put into a newly created file "index.php" to confirm that Apache can handle and process PHP requests
 
@@ -222,19 +222,19 @@ File creation
 
     $ vim /var/www/projectlamp/index.php
 
-![index.php](s5-c-create-write-php-file-code.png)
+![index.php](Screens/s5-c-create-write-php-file-code.png)
 
 File edit in vim
 
     <?php
     phpinfo();
 
-![editing php code](s5-c2-php-code.png)
+![editing php code](Screens/s5-c2-php-code.png)
 
 
 Once finished save and close the file and refresh the webpage that had the Apache Default Page.
 
-![SUCCESS](SUCCESS.png)
+![SUCCESS](Screens/SUCCESS.png)
 
 ## **If this is what poped up upon refresh that means it has been done correctly**
 
@@ -244,4 +244,4 @@ It is removed the following way
 
     $ sudo rm /var/www/projectlamp/index.php
 
-![sec removal of php info](saftey-removal.png)
+![Alt text](Screens/saftey-removal.png)
