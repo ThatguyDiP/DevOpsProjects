@@ -1,3 +1,3 @@
 # **Welcome to My DevOps Projects**
 
-The Projects listed are in subfolders in the repository
+My completed projects will have a title after the project number
