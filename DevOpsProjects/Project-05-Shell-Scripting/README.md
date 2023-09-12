@@ -1,4 +1,4 @@
-# This my [Darey.io](https://darey.io/)**SHELL SCRIPTING** Project
+# This my [Darey.io](https://darey.io/) **SHELL SCRIPTING** Project
 
 ## Intro to Shell Scripting Project
 
