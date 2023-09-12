@@ -1,0 +1,8 @@
+file1.txt
+file2.txt
+file3.txt
+navagating-linux-filesystem.sh
+sorted_files.txt
+sorted_files_sorted_alphabetically.txt
+sorting.sh
+user-input.sh
