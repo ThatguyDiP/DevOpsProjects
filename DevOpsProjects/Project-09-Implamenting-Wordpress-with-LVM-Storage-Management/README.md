@@ -1,5 +1,3 @@
-# **This Project is In Progress**
-
 # **Implementing Wordpress Website with LVM Storage Management**
 
 ## In this project I will be creating a scalable  WordPress website using AWS EC2 and Logical Volume Management (LVM) storage.
