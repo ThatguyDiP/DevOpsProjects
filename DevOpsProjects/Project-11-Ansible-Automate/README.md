@@ -6,12 +6,19 @@ A Jump (Bastian Host) Server acts as an intermediary server in which access to t
 
 ## **Install and Configuration of Ansible**
 
-1.  I spun up an ubuntu EC2 Instance named Jenkins-Ansible
+1. I spun up an ubuntu EC2 Instance named Jenkins-Ansible
 
             This will be used to run playbooks
 
+    ![ec2-update](screens/Update.png)
+
+    ![install-ansible](screens/install-ansible.png)
+
+    ![ansible-version](screens/ansible-version-check.png)
 
 2. I created a new repo in my GitHub and named it  ansible-config-mgt
+
+
 
 
 3. Ansible was installed on the Jenkins-Ansible EC2 Instance
